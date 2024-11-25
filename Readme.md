@@ -15,8 +15,8 @@ This project is a FastAPI-based application that provides a set of **public** an
 
 ### **1. Clone the Repository**
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone <https://github.com/rickywijayaaa/TSTFastAPIDeployment.git>
+
 ```
 
 ### **2. Install Dependencies**
@@ -32,14 +32,14 @@ uvicorn main:app --reload
 ```
 
 ### **4. Access the Documentation**
-- Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-- ReDoc: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+- Swagger UI: [https://tst-fast-api-deployment.vercel.app/docs](https://tst-fast-api-deployment.vercel.app/docs)
+- ReDoc: [https://tst-fast-api-deployment.vercel.app/redoc](https://tst-fast-api-deployment.vercel.app/redoc)
 
 ---
 
 ## **Directory Structure**
 ```plaintext
-project/
+TSTFastAPIDeployment/
 ├── main.py          # Application entry point
 ├── routers/         # Modular route definitions
 │   ├── __init__.py  # Makes 'routers' a module
@@ -75,7 +75,7 @@ Secure endpoints require an API key to access. Add the `X-API-Key` header in you
 ### **cURL Example**
 ```bash
 curl -X 'GET' \
-  'http://127.0.0.1:8000/secure/' \
+  'https://tst-fast-api-deployment.vercel.app/secure/' \
   -H 'X-API-Key: your-api-key'
 ```
 
