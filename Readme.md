@@ -108,7 +108,3 @@ app.include_router(example_router, prefix="/example", tags=["Example Endpoints"]
 The API documentation is auto-generated:
 1. **Swagger UI**: Interactive and easy-to-use.
 2. **ReDoc**: Clean and detailed layout for developers.
-
-### **Customization**
-- Modify `title`, `description`, and `tags` in `main.py` to suit your project.
-
